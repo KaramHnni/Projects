@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    
+    position:relative;
+    font-family:Felix-titling-normale,sans-serif;
+}
+.landing{
+    min-height:100vh;
+}
+.logo{
+    display:block;
+    text-decoration:none;
+    color:black;
+    width:15%;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:28px;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-top:15px;
+    letter-spacing: 7px;
+}
+main{
+    margin-top:50px;
+    display:flex;
+    height:544px;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    
+    
+}
+.navigation{
+    display:flex;
+    
+    
+    
+    
+}
+nav{
+    display:none;
+    height:200px;
+    width:200px;
+    box-shadow:1px 1px 10px rgba(0, 0, 0, 0.205);
+    
+    
+    
+}
+.item{
+    text-decoration:none;
+    color:black;
+    display:flex;
+    padding-left:10px;
+    width:85%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    position:relative;
+    
+}
+.item:before{
+    content:'';
+    position:absolute;
+    width:0;
+    height:100%;
+    top:0;
+    left:-10%;
+    background:rgb(0, 0, 0);
+  
+    transition : width .3s;
+    
+    
+}
+.item:hover::before{
+    width:10%;
+}
+
+.item-icon{
+    width:13%;
+    height:13%;
+    
+
+}
+.item-name{
+    
+    margin-left:10%;
+    font-size:15px;
+}
+.button{
+    display:block;
+        width:20px;
+        margin-right:10px;
+        margin-top:5px;
+        text-decoration:none;
+        color:white;
+}
+.menu-bar{
+    width:100%;
+    margin-bottom:6px;
+    height:2px;
+    background:black;
+    color:black;
+    border:none;
+}
+.menu{
+    
+    display:flex;
+    justify-content:space-around;
+    width:80%;
+    
+}
+.writing{
+    
+    height:80%;
+    margin-top:50px;
+}
+.banner{
+    font-size:30px;
+    display:block;
+    font-weight:600;
+    letter-spacing:3px;
+    margin-top:80px;
+}
+.desc{
+    font-size:14px;
+    display:block;
+    
+    
+    margin-top:20px;
+}
+.view{
+    font-weight:600;
+    display:inline-block;
+    margin-top:80px;
+    text-decoration:none;
+    color:black;
+    border:2px solid black;
+    border-radius:5px;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.hero{
+    width:400px;
+    height:100%;
+}
